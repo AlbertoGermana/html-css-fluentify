@@ -224,7 +224,54 @@ section p {
   margin: 10%;
 }
 /* _______________________________ section8 _______________________________ */
-
+.param_box{
+  width: 100vw;
+  display: block;
+  position: relative;
+  padding: 0 10%;
+}
+.param{
+  width: 11vw;
+  display: block;
+  position: relative;
+  float: left;
+  margin: 5%;
+}
+.param img{
+  width: 45%;
+  display: block;
+  position: relative;
+  margin: 30px auto;
+}
+.param h4{
+  font-size: 1rem;
+}
+.param p {
+  font-size: 0.8rem;
+}
+#section8 img{
+  text-align: center;
+}
+#section8 h3{
+  color:white;
+}
 /* _______________________________ section9 _______________________________ */
-
+#section9 h3, #section9 input, #section9 .button_green {
+  display: block;
+  position: relative;
+  float: left;
+  padding: 1%;
+}
+#structure{
+  margin: 5% 10%;
+}
+#iam{
+  margin: 5% 0 5% 2%;
+}
+#section9 input{
+  margin: 5% 1%;
+}
+#plain{
+  margin: 5% 1%;
+}
 /* _______________________________ section10 _______________________________ */
