@@ -2,3 +2,76 @@
 /* colore sfondo blu rgb 13.51.90 o #0D325A */
 /* colore verde pulsanti #7fb802 */
 /* colore arancio link hover navbar #f8b71c */
+/* _______________________________ RESET _______________________________ */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* ____________________________ CUSTOM CLASSES ____________________________ */
+.row{
+  width: 100vw;
+}
+.blue_row{
+  color: white;
+  background-color: #0D325A;
+}
+.white_row{
+  color: #4a4a4a;
+  background-color: white;
+}
+.uppercase_link{
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 12px;
+  line-height: 72px
+}
+.white_color{
+  color: white;
+}
+.gray_color{
+  color: silver;
+}
+.button{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* _______________________________ BODY _______________________________ */
+body{
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+}
+
+/* _______________________________ NAVBAR _______________________________ */
+#logo{
+  float: left;
+  margin: 1% 2% 1% 10%;
+}
+#menu_links{
+  float: left;
+  margin-left: 3%;
+  font-weight: bold;
+}
+#menu_links ul li{
+  display: inline-block;
+}
+#menu_links ul li a:hover{
+  color: #f8b71c;
+}
+#menu_buttons{
+  float: right;
+}
+
+/* _______________________________ NAVBAR _______________________________ */
+/* _______________________________ NAVBAR _______________________________ */
+/* _______________________________ NAVBAR _______________________________ */
+/* _______________________________ NAVBAR _______________________________ */
+/* _______________________________ NAVBAR _______________________________ */
+/* _______________________________ NAVBAR _______________________________ */
+/* _______________________________ NAVBAR _______________________________ */
+/* _______________________________ NAVBAR _______________________________ */
