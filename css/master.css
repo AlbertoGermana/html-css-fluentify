@@ -40,6 +40,18 @@
 .button{
     text-transform: uppercase;
     text-decoration: none;
+    border: #4e8cb6 solid 1px;
+    color: white;
+    font-size: 11px;
+    padding: 8px 25px;
+    opacity: .9;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 0 5px;
+}
+.button_green{
+    padding: 8px 10px;
+    background-color: #7fb802;
 }
 /* _______________________________ BODY _______________________________ */
 body{
@@ -65,7 +77,10 @@ body{
 }
 #menu_buttons{
   float: right;
+  margin-right: 3%;
+  font-weight: bold
 }
+
 
 /* _______________________________ NAVBAR _______________________________ */
 /* _______________________________ NAVBAR _______________________________ */
