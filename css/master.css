@@ -17,6 +17,10 @@
   color: white;
   background-color: #0D325A;
 }
+.steelblue_row{
+  color: white;
+  background-color: steelblue;
+}
 .white_row{
   color: #4a4a4a;
   background-color: white;
@@ -93,7 +97,7 @@ h4{
   font-size: 1.6rem;
   text-align: center;
 }
-h5{}
+h5{font-size: 0.8rem;}
 h6{
   font-size: 1.7rem;
   text-align: center;
@@ -220,7 +224,7 @@ section p {
 }
 /* _______________________________ section7 _______________________________ */
 #section7>.img_box>img{
-  width: 75%;
+  width: 50%;
   margin: 10%;
 }
 /* _______________________________ section8 _______________________________ */
@@ -263,15 +267,75 @@ section p {
   padding: 1%;
 }
 #structure{
-  margin: 5% 10%;
+  margin: 3% 10%;
 }
 #iam{
-  margin: 5% 0 5% 2%;
+  margin: 3% 0 3% 2%;
 }
 #section9 input{
-  margin: 5% 1%;
+  margin: 3% 1%;
 }
 #plain{
-  margin: 5% 1%;
+  margin: 3% 1%;
 }
 /* _______________________________ section10 _______________________________ */
+#section10 h3{
+  color: white;
+  padding: 1%;
+}
+#section10 a, #section10 a:visited{
+  color: #f8b71c;
+  text-decoration: none;
+}
+#section10 a:hover{
+  text-decoration: underline;
+  opacity: 0.7;
+}
+#section10 p{
+  padding-bottom: 1%;
+  margin: 0;
+}
+/* _______________________________ FOOTER _______________________________ */
+footer{
+  padding: 5% 0;
+  line-height: 2.5;
+
+}
+footer a{
+  text-decoration: none;
+  color: silver;
+}
+footer a:visited{
+  color: silver;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+footer li{
+  list-style-type: none;
+  font-size: 1rem;
+  color: silver;
+}
+footer strong{
+  font-weight: bolder;
+  font-size: 1.3rem;
+  padding-bottom: 2%;
+  color: white;
+}
+#agency, #info{
+  position: relative;
+  display: block;
+  width: 40%;
+  float: left;
+}
+
+#agency{
+  margin-left: 5%;
+}
+#agency h5{
+  color: white;
+}
+#info{
+  margin-right: 5%;
+  text-align: right;
+}
